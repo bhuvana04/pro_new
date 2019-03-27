@@ -1,7 +1,7 @@
 language: c
  sudo: false # only for faster builds
- compiler: 
-www.kpit.com| P A G E | 8
+ compiler:
+ pro_new
  - clang
  - gcc
  script:
