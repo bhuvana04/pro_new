@@ -2,5 +2,5 @@ language: c
  sudo: false 
  compiler: gcc
  script:
- - gcc -o reverse reverse.c 
- - ./reverse 
+ - gcc -o boo boo.c 
+ - ./boo 
