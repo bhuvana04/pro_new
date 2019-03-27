@@ -1,7 +1,6 @@
 language: c
- sudo: false # only for faster builds
- compiler:
- pro_new
+ sudo: false 
+ compiler: gcc
  script:
- - gcc -o c code c code.c // we can use gcc instead of clang too
- - ./c code 
+ - gcc -o reverse reverse.c 
+ - ./reverse 
